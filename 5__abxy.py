@@ -1,0 +1,5 @@
+a =int(input("輸入a值:"))
+b =int(input("輸入b值:"))
+x=(a+b**2)/(a-3*b)*(2*a+b)
+y=(a**3+b**2)/(3*b)*(a-5*b)
+print("X值為：{}，Y值為：{}".format(x,y))
